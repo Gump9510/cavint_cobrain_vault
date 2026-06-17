@@ -11,57 +11,5 @@
 *.key
 *.token
 
-# Private vault data: ignored by default in this scaffold repo.
-# Keep directory placeholders and fictional examples only.
-10_sources/**
-!10_sources/**/
-!10_sources/.gitkeep
-!10_sources/**/.gitkeep
-!10_sources/**/example-*.md
-!10_sources/**/README.md
-
-20_sessions/**
-!20_sessions/**/
-!20_sessions/.gitkeep
-!20_sessions/**/.gitkeep
-!20_sessions/**/example-*.md
-!20_sessions/**/README.md
-
-30_memories/**
-!30_memories/**/
-!30_memories/.gitkeep
-!30_memories/**/.gitkeep
-!30_memories/**/example-*.md
-!30_memories/**/README.md
-
-40_themes/**
-!40_themes/**/
-!40_themes/.gitkeep
-!40_themes/**/.gitkeep
-!40_themes/**/example-*.md
-!40_themes/**/README.md
-
-50_projects/**
-!50_projects/**/
-!50_projects/.gitkeep
-!50_projects/**/.gitkeep
-!50_projects/**/example-*.md
-!50_projects/**/README.md
-
-70_outputs/**
-!70_outputs/**/
-!70_outputs/.gitkeep
-!70_outputs/**/.gitkeep
-!70_outputs/**/example-*.md
-!70_outputs/**/README.md
-
-# Index data that may contain private activity history.
-90_indexes/briefing-*.md
-90_indexes/vault-change-log.md
-90_indexes/change-log/**
-
-# Generated/private media outputs.
-assets/**
-!assets/**/
-!assets/.gitkeep
-!assets/**/.gitkeep
+# Vault data is intentionally tracked in this private knowledge repository.
+# Keep only local/editor state and secret-like files ignored.
